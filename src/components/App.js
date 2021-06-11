@@ -44,7 +44,7 @@ class Planet extends Component {
           <p>mass: {planet.mass}</p>
           <p>orbital period: {planet.orbitalPeriod}</p>
           <p>eccentricity of orbit: {planet.orbitalEccentricity}</p>
-          <p>time to rotate around the Sun: {planet.rotationPeriod}</p>
+          <p>rotation period: {planet.rotationPeriod}</p>
           <p>number of confirmed moons: {planet.moons}</p>
           <p className="toggle" onClick={this.toggle}>Hide ▲</p>
        </div>}
